@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ColumnsData" targetNamespace="http://tempuri.org/ColumnsData.xsd" xmlns:mstns="http://tempuri.org/ColumnsData.xsd" xmlns="http://tempuri.org/ColumnsData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ColumnsData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ColumnsData" msprop:Generator_DataSetName="ColumnsData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SelectedColumns" msprop:Generator_UserTableName="SelectedColumns" msprop:Generator_RowDeletedName="SelectedColumnsRowDeleted" msprop:Generator_RowChangedName="SelectedColumnsRowChanged" msprop:Generator_RowClassName="SelectedColumnsRow" msprop:Generator_RowChangingName="SelectedColumnsRowChanging" msprop:Generator_RowEvArgName="SelectedColumnsRowChangeEvent" msprop:Generator_RowEvHandlerName="SelectedColumnsRowChangeEventHandler" msprop:Generator_TableClassName="SelectedColumnsDataTable" msprop:Generator_TableVarName="tableSelectedColumns" msprop:Generator_RowDeletingName="SelectedColumnsRowDeleting" msprop:Generator_TablePropName="SelectedColumns">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Selected" msprop:Generator_UserColumnName="Selected" msprop:Generator_ColumnPropNameInRow="Selected" msprop:Generator_ColumnVarNameInTable="columnSelected" msprop:Generator_ColumnPropNameInTable="SelectedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ColumnName" msprop:Generator_UserColumnName="ColumnName" msprop:Generator_ColumnVarNameInTable="columnColumnName" msprop:Generator_ColumnPropNameInRow="ColumnName" msprop:Generator_ColumnPropNameInTable="ColumnNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
