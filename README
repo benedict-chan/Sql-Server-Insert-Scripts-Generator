@@ -1,2 +1,17 @@
-A simple tools I created for scripts preparion of moving configuration data
+### Create insertion script for SQL Server ###
+
+This is a simple tools to select data from SQL Server, then to modify it locally, and create these new modified data as some insertion scripts.
+
+It is created for scripts preparion of moving configuration data
 from Development Server to Production SQL Server.
+
+#### How to Use ####
+1. Connect to SQL Server
+2. Choose Table
+3. Create a Select Script ( and add your WHERE cause )
+4. Execute your Select Script, the result will be show in the grid
+5. Modify the Grid data locally
+6. Generate Insection scripts with the locally modified data.
+
+
+
